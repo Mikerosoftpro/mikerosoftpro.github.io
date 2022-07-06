@@ -2,7 +2,7 @@
   "name": "epes_pricing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mikerosoftpro.github.io/",
+  "homepage": "https://mikerosoftpro.github.io/mikerosoftpro.github.io",
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
