@@ -25,7 +25,7 @@ const Bids = () => {
         editSettings={editing}
       >
         <ColumnsDirective>
-          {/* {ordersGrid.map((items, index) => ( <ColumnDirective key={index} {...items} />))} */}
+    
         </ColumnsDirective>
         <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, Edit, PdfExport]} />
       </GridComponent>

@@ -537,40 +537,40 @@ export const links = [
     ]
   },
   {
-    title: 'Charts',
+    title: 'Future Projects',
     links: [
       {
-        name: 'line',
-        icon: <AiOutlineStock />,
+        // name: 'line',
+        // icon: <AiOutlineStock />,
       },
       {
-        name: 'area',
-        icon: <AiOutlineAreaChart />,
+        // name: 'area',
+        // icon: <AiOutlineAreaChart />,
       },
 
       {
-        name: 'bar',
-        icon: <AiOutlineBarChart />,
+        // name: 'bar',
+        // icon: <AiOutlineBarChart />,
       },
       {
-        name: 'pie',
-        icon: <FiPieChart />,
+        // name: 'pie',
+        // icon: <FiPieChart />,
       },
       {
-        name: 'financial',
-        icon: <RiStockLine />,
+        // name: 'financial',
+        // icon: <RiStockLine />,
       },
       {
-        name: 'color-mapping',
-        icon: <BsBarChart />,
+        // name: 'color-mapping',
+        // icon: <BsBarChart />,
       },
       {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
+        // name: 'pyramid',
+        // icon: <GiLouvrePyramid />,
       },
       {
-        name: 'stacked',
-        icon: <AiOutlineBarChart />,
+        // name: 'stacked',
+        // icon: <AiOutlineBarChart />,
       },
     ],
   },
@@ -686,8 +686,8 @@ export const recentTransactions = [
     amount: '+625',
     title: 'Billy Bobs Chicken Shack',
     desc: 'Mr Salesmen',
-    iconColor: '#03C9D7',
-    iconBg: '#E5FAFB',
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
     pcColor: 'green-600',
   },
   {
@@ -704,9 +704,8 @@ export const recentTransactions = [
     amount: '+48',
     title: 'Lowes Depot',
     desc: 'Mr Salesman',
-    iconColor: 'rgb(255, 244, 229)',
-    iconBg: 'rgb(254, 201, 15)',
-
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
     pcColor: 'green-600',
   },
   {
@@ -725,9 +724,8 @@ export const recentTransactions = [
     percentage: '+38%',
     title: 'Michaels Crab Shack',
     desc: 'Mr Salesman',
-    iconColor: '#03C9D7',
-    iconBg: '#E5FAFB',
-    pcColor: 'red-600',
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
   },
 ];
 

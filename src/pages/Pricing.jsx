@@ -31,7 +31,7 @@ const Pricing = () => {
           <button
             type="button"
             style={{ backgroundColor: 'rgb(40,116,252)' }}
-            className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
+            className="text-1xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
           >
             <BsCurrencyDollar />
           </button>
@@ -185,7 +185,7 @@ const Pricing = () => {
             <p className="text-gray-400 text-sm">12 Recent Bids</p>
           </div>
         </div>
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        {/* <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
           <div className="flex justify-between items-center gap-2 mb-10">
             <p className="text-xl font-semibold">Sales Overview</p>
             <DropDown currentMode={currentMode} />
@@ -193,7 +193,7 @@ const Pricing = () => {
           <div className="md:w-full overflow-auto">
             <LineChart />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-wrap justify-center">

@@ -74,14 +74,14 @@ const App = () => {
                 {/* Pages */}
                 <Route path="/bids" element={<Bids />} />
                 <Route path="/employees" element={<Employees />} />
-                <Route path="/customers /" element={<Customers />} />
+                <Route path="/customers" element={<Customers />} />
                 {/* Tabs */}
                 <Route path="/bidstatus" element={<BidStatus />} />
                 <Route path="/editor" element={<Editor />} />
                 <Route path="/calendar" element={<Calendar />} />
-                <Route path="/color-picker /" element={<ColorPicker />} />
+                <Route path="/color-picker" element={<ColorPicker />} />
                 {/* Tabs */}
-                <Route path="/beanAi /" element={<BeanAi />} /> 
+                <Route path="/beanAi" element={<BeanAi />} /> 
                 {/* Charts */}
                 <Route path="/line" element={<Line />} />
                 <Route path="/area" element={<Area />} />
@@ -90,7 +90,7 @@ const App = () => {
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
-                <Route path="/stacked /" element={<Stacked />} />
+                <Route path="/stacked" element={<Stacked />} />
               </Routes>
               </div>
             <Footer />
