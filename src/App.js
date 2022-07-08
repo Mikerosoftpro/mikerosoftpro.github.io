@@ -2,12 +2,16 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
-
+import { ExcelExport, Inject, Toolbar } from '@syncfusion/ej2-react-grids';
+import { ToolbarComponent } from "@syncfusion/ej2-react-navigations"
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Pricing, Orders, Calendar, Employees, Stacked, Pyramid, Customers, BidStatus, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor, BeanAi } from './pages';
+import { Pricing, Bids, Calendar, Employees, Stacked, Pyramid, Customers, BidStatus, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor, BeanAi } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+
+
+
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -68,7 +72,7 @@ const App = () => {
                 element={<Pricing />} />
                 <Route path="/pricing /" element={<Pricing />} />
                 {/* Pages */}
-                <Route path="/orders" element={<Orders />} />
+                <Route path="/bids" element={<Bids />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers /" element={<Customers />} />
                 {/* Tabs */}
@@ -97,4 +101,8 @@ const App = () => {
   );
 };
 
+
+
+
 export default App;
+

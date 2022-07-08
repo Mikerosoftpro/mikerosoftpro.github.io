@@ -3,8 +3,9 @@ import ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
 import { ContextProvider } from './contexts/ContextProvider'; 
+import { registerLicense } from '@syncfusion/ej2-base';
 // import reportWebVitals from './reportWebVitals';
-
+registerLicense('ORg4AjUWIQA/Gnt2VVhiQlFadVlJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkJjXn5bcXZURmZZVkY=');
 ReactDOM.render(
   <ContextProvider>
     <App />

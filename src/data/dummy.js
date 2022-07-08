@@ -14,10 +14,11 @@ import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
+import { BiGasPump } from 'react-icons/bi';
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
-import avatar4 from './avatar4.jpg';
+import Brantley from './Brantley.jpg';
 import product1 from './product1.jpg';
 import product2 from './product2.jpg';
 import product3 from './product3.jpg';
@@ -616,7 +617,7 @@ export const chatData = [
   },
   {
     image:
-      avatar4,
+      Brantley,
     message: 'New Payment received',
     desc: 'Check your earnings',
     time: '4:39 AM',
@@ -644,7 +645,7 @@ export const earningData = [
     icon: <BsBoxSeam />,
     amount: '51,141',
     percentage: '+23%',
-    title: 'Lanes',
+    title: 'Total Lanes',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
@@ -668,32 +669,41 @@ export const earningData = [
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
   },
+  {
+    icon: <BiGasPump />,
+    amount: '$5.703',
+    percentage: '+5%',
+    title: 'Current Fuel',
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
+    pcColor: 'red-600',
+  },
 ];
 
 export const recentTransactions = [
   {
-    icon: <BsCurrencyDollar />,
-    amount: '+$350',
-    title: 'Paypal Transfer',
-    desc: 'Money Added',
+    icon: <TiTick />,
+    amount: '+625',
+    title: 'Billy Bobs Chicken Shack',
+    desc: 'Mr Salesmen',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'green-600',
   },
   {
-    icon: <BsShield />,
-    amount: '-$560',
-    desc: 'Bill Payment',
-    title: 'Wallet',
+    icon: <TiTick />,
+    amount: '+24',
+    desc: 'mr salesman',
+    title: 'Best City',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
   },
   {
-    icon: <FiCreditCard />,
-    amount: '+$350',
-    title: 'Credit Card',
-    desc: 'Money reversed',
+    icon: <TiTick />,
+    amount: '+48',
+    title: 'Lowes Depot',
+    desc: 'Mr Salesman',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
 
@@ -701,20 +711,20 @@ export const recentTransactions = [
   },
   {
     icon: <TiTick />,
-    amount: '+$350',
-    title: 'Bank Transfer',
-    desc: 'Money Added',
+    amount: '+255',
+    title: 'Bubbas Fine Clothing',
+    desc: 'Mrs Salesman',
 
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
     pcColor: 'green-600',
   },
   {
-    icon: <BsCurrencyDollar />,
-    amount: '-$50',
+    icon: <TiTick />,
+    amount: '+621',
     percentage: '+38%',
-    title: 'Refund',
-    desc: 'Payment Sent',
+    title: 'Michaels Crab Shack',
+    desc: 'Mr Salesman',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'red-600',
@@ -724,25 +734,25 @@ export const recentTransactions = [
 export const weeklyStats = [
   {
     icon: <FiShoppingCart />,
-    amount: '-$560',
-    title: 'Top Sales',
-    desc: 'Johnathan Doe',
+    amount: '75',
+    title: 'Most Loads Covered',
+    desc: 'Michael Bean',
     iconBg: '#FB9678',
     pcColor: 'red-600',
   },
   {
     icon: <FiStar />,
-    amount: '-$560',
-    title: 'Best Seller',
-    desc: 'MaterialPro Admin',
+    amount: '+$354,457',
+    title: 'Top Team by Rev',
+    desc: 'Team Bean',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'red-600',
   },
   {
     icon: <BsChatLeft />,
-    amount: '+$560',
-    title: 'Most Commented',
-    desc: 'Ample Admin',
+    amount: '+75,153',
+    title: 'Top Team by Margin',
+    desc: 'Team Bean',
     iconBg: '#00C292',
     pcColor: 'green-600',
   },
@@ -804,30 +814,14 @@ export const medicalproBranding = {
   ],
   teams: [
     {
-      name: 'Bootstrap',
-      color: 'orange',
-    },
-    {
-      name: 'Angular',
-      color: '#FB9678',
+      name: 'Pricing',
+      color: 'gray',
     },
   ],
   leaders: [
     {
       image:
-        avatar2,
-    },
-    {
-      image:
-        avatar3,
-    },
-    {
-      image:
-        avatar2,
-    },
-    {
-      image:
-        avatar4,
+        Brantley,
     },
     {
       image:
@@ -973,7 +967,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+      Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1043,7 +1037,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+      Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1113,7 +1107,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+      Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1183,7 +1177,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+      Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1253,7 +1247,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+       Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1323,7 +1317,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+       Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1393,7 +1387,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+       Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1463,7 +1457,7 @@ export const customersData = [
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
-      avatar4,
+       Brantley,
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
@@ -1527,7 +1521,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1598,7 +1592,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1668,7 +1662,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1739,7 +1733,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1810,7 +1804,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1881,7 +1875,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -1952,7 +1946,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -2023,7 +2017,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -2094,7 +2088,7 @@ export const employeesData = [
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar4,
+       Brantley,
   },
   {
     EmployeeID: 4,
@@ -3089,14 +3083,14 @@ export const lineChartData = [
 export const dropdownData = [
   {
     Id: '1',
-    Time: 'March 2021',
+    Time: 'May 2022',
   },
   {
     Id: '2',
-    Time: 'April 2021',
+    Time: 'June 2022',
   }, {
     Id: '3',
-    Time: 'May 2021',
+    Time: 'July 2022',
   },
 ];
 export const SparklineAreaData = [

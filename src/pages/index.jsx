@@ -1,6 +1,6 @@
 export { default as Pricing } from './Pricing';
 export { default as BidStatus } from './BidStatus';
-export { default as Orders } from './Orders';
+export { default as Bids } from './Bids';
 export { default as Employees } from './Employees';
 export { default as Editor } from './Editor';
 export { default as Customers } from './Customers';
