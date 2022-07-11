@@ -3,9 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { ExcelExport, Inject, Toolbar } from '@syncfusion/ej2-react-grids';
-import { ToolbarComponent } from "@syncfusion/ej2-react-navigations"
+import { ToolbarComponent } from "@syncfusion/ej2-react-navigations";
+import { SpreadsheetComponent } from '@syncfusion/ej2-react-spreadsheet';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Pricing, Bids, Calendar, Employees, Stacked, Pyramid, Customers, BidStatus, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor, BeanAi } from './pages';
+import { Pricing, Bids, Calendar, Excel, Websites, Employees, Maps, Stacked, Pyramid, Customers, BidStatus, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor, BeanAi } from './pages';
+import { Map, GoogleApiWrapper } from 'google-maps-react';
+
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -70,16 +73,17 @@ const App = () => {
                 {/* Dashboard */}
                 <Route path="/"
                 element={<Pricing />} />
-                <Route path="/pricing /" element={<Pricing />} />
+                <Route path="/pricing"  element={<Pricing />} />
                 {/* Pages */}
                 <Route path="/bids" element={<Bids />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
                 {/* Tabs */}
-                <Route path="/bidstatus" element={<BidStatus />} />
-                <Route path="/editor" element={<Editor />} />
+                <Route path="/bid-status" element={<BidStatus />} />
+                <Route path="/websites" element={<Websites />} />
                 <Route path="/calendar" element={<Calendar />} />
-                <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path="/excel" element={<Excel />} />
+                <Route path="/maps" element={<Maps />} />
                 {/* Tabs */}
                 <Route path="/beanAi" element={<BeanAi />} /> 
                 {/* Charts */}
